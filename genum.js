@@ -22,7 +22,7 @@ const generateNumbers = (digit) => {
   }
   return nums;
 };
-if ((args.length === 1) & (args[0] === "help" || args[0] === "HELP")) {
+if ((args.length === 1) & (args[0].toLowerCase() === "help")) {
   console.log(
     `node ${path.basename(__filename)} [file name] [number of digits].`
   );
