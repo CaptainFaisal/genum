@@ -29,9 +29,8 @@ if ((args.length === 1) & (args[0]?args[0].toLowerCase() === "help":false)) {
 } else if (args.length === 2) {
   if (parseInt(args[1]) !== NaN) {
     fs.writeFile(`${args[0]}.txt`, generateNumbers(parseInt(args[1])), (e) =>
-      console.log(e?e:"The txt file has been written successfully."):
+      console.log(e?e:"The txt file has been written successfully.")
     );
-    console.log("")
   } else {
     console.log("Last arg should be a valid number.");
   }
