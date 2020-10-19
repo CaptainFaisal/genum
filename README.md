@@ -1,5 +1,5 @@
 # Genum by [CaptainFaisal](https://www.facebook.com/faisal.walker.28787) (Developer @[Nezent](https://www.nezent.com))
-(For practicing purpose)
+(Just for practice)<br>
 You can use genum to generate list of all nth digit numbers which you can use for bruteforce attack.
 # #Commands for termux:
 First of all, ensure you have node and git installed in your machine by typing <br> `node --version`<br>
