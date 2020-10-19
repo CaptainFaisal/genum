@@ -9,7 +9,7 @@ If you don't have node or git installed, then type <br> `pkg install node` for n
 and `pkg install git` for git<br>
 Now, type<br>
 `git clone https://github.com/CaptainFaisal/genum`<br>
-`cd genum`
+`cd genum`<br>
 `node genum <filename> <number of digits>`
 For example, if you want to generate list of all 2 digit numbers and name it 2-digit.txt, then, type:<br>
 `node genum 2-digit 2`
