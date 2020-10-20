@@ -27,7 +27,7 @@ if ((args.length === 1) & (args[0]?args[0].toLowerCase() === "help":false)) {
     `node ${path.basename(__filename)} [file name] [number of digits].`
   );
 } else if (args.length === 2) {
-  if (parseInt(args[1]) !== NaN) {
+  if (parseInt(args[1])) {
     fs.writeFile(`${args[0]}.txt`, generateNumbers(parseInt(args[1])), (e) =>
       console.log(e?e:"The txt file has been written successfully.")
     );
